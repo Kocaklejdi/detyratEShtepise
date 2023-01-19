@@ -1,0 +1,50 @@
+#h1MeNgjyre{
+    color: white;
+    background-color: rgb(165, 42, 42);
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+
+}
+#h3MeNgjyre{
+    color: white;
+    background-color: rgb(165, 42, 42);
+    margin: 0%;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+#h1ERe{
+    color: darkblue;
+    background-color:tomato;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+
+}
+#paragraph{
+    color: darkblue;
+    background-color:tomato;
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+#paragraph2{
+    color: darkblue;
+    background-color:tomato;
+    margin: 0%;
+    padding-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+#span{
+    color: darkblue;
+    background-color:yellow;
+    margin: 0%;
+    padding-top: 0px;
+    font-size: 30px;
+    font-style: italic;
+}

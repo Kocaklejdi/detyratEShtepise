@@ -1,0 +1,64 @@
+
+#katrori1{
+  border-width: 10px;
+  border-color: red;
+  border-style: solid;
+  width: 719px;
+  height: 220px;
+  
+  margin-top: 54px;
+  margin-left: 58px;
+  margin-right: 647px;
+  background-color: white;
+
+}
+#katrori2{
+    border-width: 40px;
+    border-color: #00FF66;
+    border-style: solid;
+    width: 659px;
+    height: 160px;
+    
+    margin-top: 39px;
+    margin-left: 526px;
+    background-color: white;
+  
+  }
+  #katrori3{
+    border-width: 40px;
+    border-color: #4200FF;
+    border-style: solid;
+    width: 659px;
+    height: 160px;
+    
+    margin-top: 136px;
+    margin-left: 54px;
+    background-color: white;
+  
+  }
+  #katrori4{
+    border-width: 3px;
+    border-color: black;
+    background-color: #26FF56;
+    border-style: solid;
+    width: 507px;
+    height: 92px;
+    
+    margin-top: 32px;
+    margin-left: 47px;
+    margin-right: 179px;
+    margin-bottom: 110px;
+
+  }
+  #katrori5{
+    background-color: #FF0000;
+    width: 246px;
+    height: 74px;
+    margin-top: 43px;
+    margin-left: 0px;
+    margin-right: 453px;
+    margin-bottom: 83px;
+  }
+  body{
+    background-color: rgb(0, 163, 255);
+  }

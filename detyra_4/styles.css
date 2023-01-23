@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;  
+    font-family: Muli;
+}
+.dashboard{
+    width: 255px;
+    height: 330px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(54, 55, 64); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboardFirstRow{
+    margin-left: 35px;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    height: 128px;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items:baseline;
+    font-size: 19px;
+    line-height: 24px;
+    color: #A4A6B3;
+}
+.dashboardLastRow{
+    height: 20px;
+    align-self: stretch;
+}
+.dashboardRow{
+    flex-direction: column;
+    font-weight: 400;
+    padding-left: 29px;
+    height: 56px;
+    font-style: normal;
+    line-height: 20px;
+    justify-content: flex-start;
+    align-self: stretch;
+    font-size: 19px;
+    line-height: 24px;
+    color: #DDE2FF;
+    opacity: 0.7;
+    text-decoration:none;
+}
+.dashboardRow:hover{
+    background-color: #3E4049;
+    opacity: 0.7;
+}
+.rrethi{
+    margin-top: 59px;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    background-color: #3751FF;
+    position: relative;
+}
+.D{
+    height: 14px;
+    width: 12px;
+    border-radius: 8x;
+    background-color: white;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 11px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+.ticketsBody{
+    background-color: rgb(54, 55, 64); 
+    display: flex;
+    font-family: Muli;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    
+}
+.ticketTitle{
+    margin-top: 80px;
+    margin-left: 102px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 1px;
+}
+.ticketCounter{
+    flex: 4;
+    border-radius: 7px;
+    background-color: white;
+    width: 20%;
+    margin-left: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5%;
+    color: #252733;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 1px;
+    align-items: center;
+    font-size: 40px;
+}
+.ticketCounter:hover>*{
+    color: #3751FF !important;
+}
+.ticketSpan{
+    font-size: 15px;
+    color: #9FA2B4;
+}
+.ticketNumber{
+    color: #252733;
+}
+.emptySpace{
+    flex:5;
+}
+.tasksBody{
+    background-color: rgb(54, 55, 64); 
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+    vertical-align: top;
+    letter-spacing: 1px;
+}
+.taskTitle{
+    width: 195px;
+    height: 100px;
+    margin-left: 56px;
+    margin-top: 59px;
+    text-align: center;
+}
+.taskContainer{
+    margin-top: 37px;
+    margin-left: 56px;
+    width: 550px;
+    height:450px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.taskContainerTitle{
+    color: #252733;
+    font-size: 19px;
+    margin-top: 12px;
+    margin-left: 32px;
+}
+.today{
+    color: #9FA2B4;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 32px;
+    font-weight: 100;
+    line-height: 16px;
+}
+.viewAll{
+    color: #3751FF;
+    font-size: 14px;
+    margin-top: 14px;
+    margin-left: 32px;
+    font-weight:600;
+    line-height: 16px;
+}
+.createTask{
+    color: #C5C7CD;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 32px;
+    font-weight:100;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    vertical-align: top;
+}
+.plusContainer{
+    margin-left: 30px;
+    height: 24px;
+    width: 24px;
+    border-radius: 8px;
+    background-color: #F0F1F7;
+    position: relative;
+    margin-bottom: -2px;
+}
+.plus{
+    margin-top: 11px;
+    margin-left: 7px;
+    width: 10px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #9FA2B4;
+    position: absolute;
+}
+.plusVertical{
+    margin-top: 11px;
+    margin-left: 7px;
+    width: 10px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #9FA2B4;
+    position: absolute;
+    transform: rotate(90deg);
+}
+.divider{
+    border-top: 0px solid #DFE0EB;
+    margin-top: 6px;
+    margin-bottom: 47px;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #C5C7CD ;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 32px;
+}
+.labelText{
+    margin-left: 32px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    font-weight: 600;
+}
+.urgent{
+    width: 74px;
+    height: 24px;
+    background-color: #FEC400;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 32px;
+    margin-bottom: 6x;
+}
+.tagText{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    top: -8px;
+    left: 12px;
+}
+.divider2{
+    border-top: 0px solid #DFE0EB;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+.new{
+    width: 54px;
+    height: 24px;
+    background-color: #29CC97;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 32px;
+    margin-bottom: 6x;
+}
+.default{
+    width: 76px;
+    height: 24px;
+    background-color: #F0F1F7;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 32px;
+    margin-bottom: 6x;
+}
+.tagTextDefault{
+    position: absolute;
+    color: #9FA2B4;
+    font-size: 11px;
+    top: -8px;
+    left: 12px;
+}

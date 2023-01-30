@@ -1,0 +1,304 @@
+body{
+    overflow: hidden;
+}
+.contentHolder{
+    background-color: #2B3648;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto';
+    color: #56657F;
+
+}
+.settingsContainer{
+    width: 12.7%;
+    height: 100%;
+    background-color: #212936;
+}
+.userHolder{
+    width: 100%;
+    height: 13.25%;
+    background-color: #212936;
+}
+.userFunctionalities{
+    width: 100%;
+    height: 25%;
+    background-color: #212936;
+}
+.userSettings{
+    width: 100%;
+    height: 67.5%;
+    background-color: #212936;
+}
+.contentContainer{
+    background-color: #2B3648;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: auto;
+}
+.settingBar{
+    height: 40px;
+    align-self: center;
+    background-color: #212936;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    width: 91%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.imageMargin{
+    margin-left: 8px;
+    height: 16px;
+    width: 16px;
+}
+.settingBar:hover{
+    background-color: #2B3648;
+}
+.divider{
+    width: 100%;
+    border-top: 1px solid #313C4E;
+    margin-bottom: 4px;
+}
+.userProfilePicture{
+    margin-top: 20px;
+    margin-left: 6%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.userName{
+    margin-left: 6px;
+    color:#AFBDD1;
+    font-size: 16px;
+    line-height: 30px;
+}
+.settingsSpanHolder{
+    margin-left: 16px;
+    margin-top: 8px;
+    color: #56657F;
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 100;
+}
+.infoCounters{
+    background-color: #212936;
+    width: 20%;
+    height: 25%;
+    margin-top: 4%;
+    margin-left: 4%;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 8px;
+}
+.infoCounters:hover *,.infoCounters:hover{
+    background-color: #1976D2;
+    box-shadow:#2B3648;
+    color: white;
+}
+.calendar{
+    background-color: #212936;
+    width: 95%;
+    height: 60%;
+    margin-top: 7%;
+    margin-left: 4%;
+    border-radius: 4px;
+}
+.sales{
+    background-color: #212936;
+    width: 92%;
+    height: 67%;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.activity{
+    background-color: #212936;
+    border-radius: 4px;
+}
+.newClients{
+    background-color: #212936;
+    border-radius: 4px;
+}
+.topStates{
+    background-color: #212936;
+    border-radius: 4px;
+}
+.topLeft{
+    display: flex;
+    flex-wrap: wrap;
+    height: 62%;
+    width: 62%;
+    
+}
+.topRight{
+    width: 33%;
+    height: 64%;
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    height: 37%;
+    width: 95%;
+    display: flex;
+}
+.activity{
+    width: 95%;
+    margin-top: 8%;
+    height: 37%;
+    margin-left: 4%;
+}
+.newClients{
+    width: 35%;
+    height: 82%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.topStates{
+    width: 59%;
+    height: 82%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.counterNumber{
+    font-size: 20px;
+    color:#8997B1;
+}
+.counterText{
+    font-size: 12px;
+}
+.newDivider{
+    width: 95%;
+    border-top: 1px solid #313C4E;
+    margin-bottom: 4px;
+}
+.dividerText{
+    position: relative;
+    top: -20px;
+    left: 95%;
+    font-size: 10px;
+    color:#56657F;
+}
+.calendarDates{
+    color:#AFBDD1;
+    font-size: 9px;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.weekDay{
+    color:#313C4E;
+    font-size: 9px;
+    margin-top: 15px;
+
+}
+.calendarNumbers{
+    color:#AFBDD1;
+    font-size: 9px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    height: 10%;
+}
+.date{
+    font-size: 12px;
+    width: 20px;
+    height: 30px;
+    margin-left: 10px;
+}
+.date:hover{
+    background-color: #1976D2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+h3{
+    margin: 20px;
+    margin-bottom: 15px;
+    color: #AFBDD1;
+    font-weight: 100;
+    font-size: 20px;
+}
+.userBar{
+    height: 16%;
+    width: 90%;
+    background-color: #212936;
+    margin-bottom: 1%;
+    display: flex;
+}
+.activityBars{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60%;
+}
+.activityBar{
+    width: 6px;
+    background-color: #1976D2;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.userBarText{
+    width: 80%;
+    height: 100%;
+    background-color: #212936;
+}
+.stateContent{
+    width: 100%;
+    height: 73%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap ;
+}
+.stateLeft{
+    width: 7%;
+    height: 85%;
+    background-color: #212936;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.stateMid{
+    width: 93%;
+    height: 85%;
+    background-color: #212936;
+    display: flex;
+    flex-wrap: wrap;
+}
+.stateBot{
+    width: 100%;
+    height: 15%;
+    background-color: #212936;
+    display: flex;
+    justify-content: space-evenly;
+}
+.verticalDivider{
+    height: 100%;
+    width: 1px;
+    background-color: #313C4E;
+    position: relative;
+    left: 20%;
+}
+.stateBar{
+    height: 6px;
+    background-color: #2196F3;
+}

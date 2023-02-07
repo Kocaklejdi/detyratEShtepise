@@ -1,0 +1,67 @@
+*{
+    overflow: hidden;
+}
+.dino{
+    height: 100px; 
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.animatedDino{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    animation: dino 1s linear;
+}
+.gameWorld{
+    position: absolute;
+    left: -10vw;
+    width: 300%;
+    margin-top:26%;
+    animation: gameWorld 4s infinite linear;
+}
+.cactus{
+    position: absolute;
+    height: 120px;
+    width: 60px;
+    top: 47%;
+    left: 110vw;
+    animation: cactus 4s linear infinite;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+    border-radius: 8px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+@keyframes cactus{
+    0%   {left: 110vw;}
+    100% {left: -20vw;}
+}
+@keyframes gameWorld{
+    0%   {left: 0vw;}
+    100% {left: -130vw;}
+}
+@keyframes dino {
+    0%{top:50%}
+    25%{top:35%}
+    50%{top:20%}
+    75%{top:35%}
+    100%{top:50%}
+}

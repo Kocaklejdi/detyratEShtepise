@@ -80,7 +80,7 @@ const tasks = [
         checked: true,
         name: "Update ticket report",
         status: 3
-    }
+        }
 ]
 
 const profile = document.getElementById("user");
@@ -167,6 +167,7 @@ const checkedOrNot = document.createElement("img");
 const rowText = document.createElement("span");
 const statusHolder = document.createElement("div");
 const rowStatus = document.createElement("div");
+checkedOrNot.id = i;
 if(tasks[i].checked){
     checkedOrNot.src = "assets/check.png"
 }else{

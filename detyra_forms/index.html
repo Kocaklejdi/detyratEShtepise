@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formHolder">
+        <div class="textTitle">
+            FORM
+        </div>
+        <form class="form">
+            <div id="usernameHolder">
+                <span class="usernameClicked" id = "usernameText">Username</span>
+                <img for="username" src="./assets/User-logouser-logo.png" class="logos">
+                <div id="usernameCircle" class="circle"></div>
+                <input id="username" name="username" class="textInput" placeholder="Username">
+            </div>
+            <div class="placeholder"></div>
+            <div id="emailHolder">
+                <span class="usernameClicked" id = "emailText">E-mail</span>
+                <img src="./assets/Mail-logomail-logo.png" style = "height: 16px;"class="logos">
+                <div id="emailCircle" class="circle"></div>
+                <input id="email" class="textInput" placeholder="E-mail" type="email">
+            </div>
+            <div class="placeholder"></div>
+            <div id="passwordHolder">
+                <span class="usernameClicked" id = "passwordText">Pasword</span>
+                <img src="./assets/Vectorkey-logo.png" class="logos">
+                <div id="passwordCircle" class="circle"></div>
+                <input id="password" class="textInput" placeholder="Password" type="password">
+            </div>
+            <div class="placeholder"></div>
+            <div>
+                <img src="./assets/Vectorglobe-logo.png" class="logos">
+                <select class="dropbtn" placeholder="Country" style="width:98.2%; height: 42px;">
+                    <option value="albania">Albania</option>
+                    <option value="unitedStatesOfAmerica">United States</option>
+                    <option value="greatBritain">United Kingdoms</option>
+                    <option value="germany">Germany</option>
+                    <option value="greece">Greece</option>
+                </datalist>
+                </select>
+            </div>
+                <p class="textTitle" style="font-size: 18px; margin-top: 5px;margin-bottom: -20px;">Level of development</p>
+                <div class="levelOfDevelopment">
+                    <div class="radioButtons" id="radio1div"><input style="margin-right: 10px;" name="radio" type="radio" id="radio1"/>Basic</div>
+                    <div class="radioButtons" id="radio2div"><input style="margin-right: 10px;" name="radio" type="radio" id="radio2"/>Medium</div>
+                    <div class="radioButtons" id="radio3div"><input style="margin-right: 10px;" name="radio" type="radio" id="radio3"/>Advanced</div>
+                </div>
+                <p class="textTitle" style="font-size: 18px; margin-top: 5px;margin-bottom: -20px;">Programming Skills</p>
+                <div class="levelOfDevelopment">
+                    <div class="radioButtons" id="check1div"><input style="margin-right: 10px;" type="checkbox" id="check1"/>Java</div>
+                    <div class="radioButtons" id="check2div"><input style="margin-right: 10px;" type="checkbox" id="check2"/>Python</div>
+                    <div class="radioButtons" id="check3div"><input style="margin-right: 10px;" type="checkbox" id="check3"/>JavaScript</div>
+                </div>
+            <button id="sendButton" class="sendButton" type="submit">
+                    <span>SEND</span>
+            </button>
+        </form>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
